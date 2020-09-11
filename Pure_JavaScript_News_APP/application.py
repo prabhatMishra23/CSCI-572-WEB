@@ -7,7 +7,7 @@ from datetime import datetime
 import re
 
 application = Flask(__name__)
-newsapi = NewsApiClient(api_key='43ca2e4433b74906b156a63979618eeb')
+newsapi = NewsApiClient(api_key='############')
 
 @application.route('/index.html')
 def root():
