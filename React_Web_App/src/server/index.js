@@ -5,8 +5,8 @@ const router = express.Router();
 const path = require('path');
 const cors = require('cors')
 const fetch = require("node-fetch");
-const ny_api_key = "pKdGSU0EIEE9hcSp1QxWkGY4MvrlC3Ap";
-const guard_api_key = "6696cdf1-3219-4e5c-bb42-75de3e5c6ea6";
+const ny_api_key = "#######";
+const guard_api_key = "######";
 var utilityG = require('./utilityGuardian.js');
 var utilityN = require('./utilityNewYork.js');
 
