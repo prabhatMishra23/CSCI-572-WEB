@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sunny_weather" />
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_image"
+        android:textSize="15sp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_title"
+        android:stretchColumns="*"
+        >
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/dialog_twitter_share"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:padding="3dip"
+            android:background="@drawable/border_modal"
+            android:src="@drawable/bluetwitter"
+            />
+
+        <ImageView
+            android:id="@+id/dialog_bookmark"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:padding="3dip"
+            android:background="@drawable/border_modal"
+            android:src="@drawable/baseline_bookmark_border_24" />
+    </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

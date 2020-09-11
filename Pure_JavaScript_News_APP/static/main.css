@@ -1,0 +1,158 @@
+  .row {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .maincolumn1 {
+    flex: 32%;
+  }
+  .column1{
+    width: 32%;
+    height: 500px;
+    /* flex: 1 1 auto; */
+    position: fixed;
+  }
+  .column2{
+    flex: 68%;
+  }
+  
+  .button.search:hover , .button.google:hover{
+    background-color: #4CAF50 !important;
+    color: white !important;
+  }
+  .button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 137px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:serif;
+    align-items: center;
+    outline: none;
+  }
+  .buttonDisplay{
+    float: right;
+    margin-right: 21px;
+  }
+  .container {
+    position: relative;
+    max-width: 800px;
+  }
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+  }
+  .container .content #slideImageContent{
+    font-size : 13px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .container .content #slideImagePara{
+    font-size : 10px;
+  }
+  .container #mySlideImage{
+    float:left;
+    width: 100%;
+    height: 217px;
+  }
+  .button.google{
+     background-color: rgb(105, 103, 103);
+     color:white;
+     border-radius: 3px 3px 0px 0px;
+     border-color:rgb(173, 171, 171);
+     border-width:1px;
+     border-style: solid;
+     border-bottom-width: 0px;
+  }
+
+  .newsHeading{
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+  .button.search{
+    background-color: rgb(226, 226, 226);
+    color:black;
+    border-radius: 0px 0px 3px 3px;
+    border-color:rgb(173, 171, 171);
+    border-width :1px;
+    border-style:solid;
+    border-top-width: 0px;
+ }
+
+  .main .column {
+    width: 30%;
+    padding: 3px;
+  }
+  .main {
+    margin-right:35%;
+    text-align : center;
+}
+ .card .cardContainer .heading {
+     font-size : 14px;
+     font-weight: bolder;
+ }
+ .card .cardContainer .description {
+    font-size: 12px;
+}
+.card .cardContainer .cardImage{
+  width: 100%;
+  height: 119px;
+  border-radius: 4px;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 13px;
+  grid-template-columns: 55% 43%;
+  margin-left: 8px;
+}
+
+.card {
+    /* flex: 0 0 25em; */
+    text-align: center;
+    border-radius: 4px;
+    background: rgb(242, 242, 242);
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(173, 171, 171);
+    /* height: 500px; */
+}
+.card cardContainer{
+  width : 100%;
+  height : 100%;
+}
+.card-grid-container {
+  text-decoration: inherit;
+  color: inherit;
+  display: flex;
+}
+
+.searchForm{
+  display : none;
+}
+
+.cardAnchor{
+  text-decoration: inherit;
+  color: inherit;
+  display: flex;
+  margin: 3px;
+  flex: 1 1 0px
+}
+
+hr.border {
+  border-top: 1px dotted black;
+}
+
+#wordCloudD{
+       background-color: rgb(236, 236, 236);
+    }

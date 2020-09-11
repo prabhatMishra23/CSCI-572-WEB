@@ -1,0 +1,117 @@
+.bg-gradient-2 {
+  background-image: linear-gradient(to right, #192a4d 0%, #5675c2 95%);
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+.NYGuard{
+  color: white;
+    padding: 1px;
+    padding-top: 12px;
+}
+}
+
+@media only screen and (min-width: 601px) {
+  .NYGuard{
+    color: white;
+      padding: 12px;
+  }
+  }
+
+@media only screen and (min-width: 601px) {
+.LoadingIcon{
+  margin-top: 25%;
+  text-align:center
+}
+}
+@media only screen and (max-width: 600px)  {
+  .LoadingIcon{
+    margin-top: 50%;
+    text-align:center
+  }
+  }
+
+.toggleSwitchNYG{
+  display: flex;
+  align-items: center;
+}
+
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+@media only screen and (max-width: 600px) {
+.keywordContainer{
+  width: 250px;
+}
+}
+
+@media only screen and (min-width: 601px) {
+  .keywordContainer{
+    width: 330px;
+  }
+  }
+
+.custom{
+  overflow: hidden;
+  height : 72px;
+  margin-bottom: 0.75rem;
+}
+
+.mainBody{
+  padding: 28px;
+}
+
+.cardDate{
+  font-style: italic;
+  color: black;
+  font-size: 13px;
+}
+
+.LinkCard{
+  text-decoration: none;
+  color : black;
+}
+
+.show{
+  display : block;
+}
+
+.modalHeading{
+  font-size: 28px;
+}
+
+/* .hide{
+  height : 100px;
+  overflow : hidden !important
+} */
+
+  .hide {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+ }
+
+.hide{
+  visibility: hidden;
+  /* display: none; */
+  }
+
+  .noCards{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+.extraClass {
+  font-size: 13px !important;
+  pointer-events: auto !important;
+  padding:5px;
+  color:black;
+  opacity:1 !important;
+  }
+
+  .extraClass:hover{
+    visibility: visible !important;
+    opacity: 1 !important;
+  }

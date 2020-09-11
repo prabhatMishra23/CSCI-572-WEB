@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="136dp"
+    android:background="@drawable/shape_border">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/top_card_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="125dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/topNewsImg"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:background="@drawable/shape"
+                android:scaleType="fitXY" />
+
+            <GridLayout
+                android:id="@+id/cardPrabhat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_toEndOf="@+id/topNewsImg"
+                android:layout_toRightOf="@+id/topNewsImg">
+
+                <TextView
+                    android:id="@+id/top_card_title"
+                    android:layout_width="221dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_row="2"
+                    android:layout_column="0">
+
+                    <TextView
+                        android:id="@+id/top_card_timeStamp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:text="Prabhat"
+                        android:textColor="@color/grey" />
+
+                    <TextView
+                        android:id="@+id/selection_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/top_card_timeStamp"
+                        android:text="|"
+                        android:textColor="@color/selecetedColor" />
+
+                    <TextView
+                        android:id="@+id/top_card_newsType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/selection_icon"
+                        android:text="Card_Text"
+                        android:textColor="@color/grey" />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/top_news_bookmark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/baseline_bookmark_border_black_24"
+                    android:tint="@color/red"
+                    android:tintMode="@color/red"></ImageView>
+
+
+            </GridLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

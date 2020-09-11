@@ -1,0 +1,156 @@
+.formBox{
+    border-radius: 5px;
+    background-color: rgb(243,243,243);
+    padding: 9px;
+    display: grid;
+    row-gap: 1em;
+}
+
+.searchCard {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235,236,235);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(200, 199, 199);
+    /* display : none; */
+  }
+  
+  .searchCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .searchCardcontainer {
+    display: grid;
+    grid-template-columns: 13% 84%;
+    grid-gap: 7px;
+    cursor: pointer;
+}
+
+/* .cardCol1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+  
+ .imageSearchCard{
+    padding-top: 10px;
+    margin-left: 6px;
+    width :52px;
+    height:52px;
+    padding-bottom: 10px;
+  }
+  
+ .textCard{
+    position: relative;
+    width: 100%;  
+  }
+
+  .close-classic {
+    /* color: black; */
+    font: 12px/100% sans-serif;
+    position: absolute;
+    right: 5px;
+    /* text-decoration: none; */
+    text-shadow: 0 1px 0 #fff;
+    top: 5px;
+    cursor: pointer; 
+  }
+  a.close-classic:active{
+   color:purple;
+  }
+
+  .cardTitle{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    width: 98%;
+  }
+
+  .cardDescription{
+    font-size: 12px;
+    font-family: serif;
+    white-space: nowrap;
+  }
+
+  .describeOverflow{
+    overflow: hidden;
+    width: 98%;
+  }
+
+  .textBox{
+    width: 118px;
+    height: 20px;
+    margin-right: 9px;
+    margin-left: 10px;
+    outline: none;
+  }
+
+  .textBox1{
+    width: 101px;
+    margin-right: 9px;
+    margin-left: 10px;
+    outline: none;
+  }
+
+  .keyToFrom{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .categorySource{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexDiv{
+    display: contents;
+  }
+
+  .submitClear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .textCardPara{
+    margin: 5px;
+    margin-left: 0px;
+  }
+
+  .boldText{
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .cardText{
+    font-size: 10px;
+    font-family: georgia;
+    margin-left: 3px;
+  }
+  .hoverableButton{
+      background-color: rgb(245, 245, 243); 
+      color: black; 
+      border: 0px;
+      height:25px;
+      outline: none;
+    }
+.hoverableButton:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    select{text-align-last: center;}
