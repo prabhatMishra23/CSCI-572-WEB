@@ -40,7 +40,7 @@ class SearchKeys extends React.Component {
                     `https://prabhat-mishra.cognitiveservices.azure.com/bing/v7.0/suggestions?q=${value}`,
                     {
                         headers: {
-                            "Ocp-Apim-Subscription-Key": "92014f23f3a64269bf3131dddf58fd55"
+                            "Ocp-Apim-Subscription-Key": "##########################"
                         }
                     }
                 );
